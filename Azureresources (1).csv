@@ -1,0 +1,13 @@
+﻿NAME,TYPE,LOCATION,
+"Application Insights Smart Detection","Action group","Global"
+"edusync-frontend","Static Web App","East Asia"
+"edusync-quizhub","Event Hubs Namespace","Japan East"
+"EduSyncAPI","App Service","Japan East"
+"EduSyncAPI","Application Insights","Japan East"
+"EduSyncAPI20250601145345Plan","App Service plan","Japan East"
+"edusyncblobstorage01","Storage account","Japan East"
+"EduSyncDB (edusyncserver01/EduSyncDB)","SQL database","Japan East"
+"edusyncserver","Storage account","Japan East"
+"edusyncserver01","SQL server","Japan East"
+"Edusyncyash","Data factory (V2)","Japan East"
+"quizstreamjob","Stream Analytics job","Japan East"
