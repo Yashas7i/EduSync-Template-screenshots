@@ -1,0 +1,21 @@
+frontend deployment steps:-
+
+-> create a static web app first
+1.open new terminal in your vscode.
+
+2.npm install -g @azure/static-web-apps-cli
+3.npm install
+
+4.az login
+
+5.npm run build
+
+6.az staticwebapp list --query "[].{Name:name, ResourceGroup:resourceGroup}" -o table
+->Name                          ResourceGroup
+---------------------------   --------------
+edusync-frontend-prod         EduSyncRG        //example
+green-meadow-0117ca400        EduSyncRG
+
+7.swa deploy --app-name <correct-app-name> --resource-group EduSyncRG --env production --output-location build
+example:-swa deploy --app-name edusync-frontend --resource-group EduSyncRG --env production --output-location build
+
